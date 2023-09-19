@@ -4,7 +4,7 @@
             [org.corfield.build :as bb]))
 
 (def lib 'com.github.dgr/clj-tda)
-(def version "1.0.0")
+(def version "1.0.1")
 #_ ; alternatively, use MAJOR.MINOR.COMMITS:
 (def version (format "1.0.%s" (b/git-count-revs nil)))
 
