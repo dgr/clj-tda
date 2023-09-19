@@ -7,6 +7,19 @@ various API endpoints.
 
 The TD Ameritrade API can be found here: <https://developer.tdameritrade.com>
 
+## Dependency Info
+
+Leiningen project.clj:
+
+```clojure
+{:dependencies {[com.github.dgr/clj-tda "1.0.0"]}}
+```
+
+Clojure CLI tools deps.edn:
+```clojure
+{:deps {com.github.dgr/clj-tda {:mvn/version "1.0.0"}}}
+```
+
 ## Getting Started
 
 First, pull in the required packages:
