@@ -14,12 +14,12 @@ The TD Ameritrade API can be found here: <https://developer.tdameritrade.com>
 Leiningen project.clj:
 
 ```clojure
-{:dependencies {[com.github.dgr/clj-tda "1.0.0"]}}
+{:dependencies {[com.github.dgr/clj-tda "1.0.2"]}}
 ```
 
 Clojure CLI tools deps.edn:
 ```clojure
-{:deps {com.github.dgr/clj-tda {:mvn/version "1.0.0"}}}
+{:deps {com.github.dgr/clj-tda {:mvn/version "1.0.2"}}}
 ```
 
 ## Getting Started
