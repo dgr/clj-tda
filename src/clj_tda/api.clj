@@ -4,21 +4,9 @@
    [camel-snake-kebab.core :as csk]
    [clj-http.client :as client]
    [cljc.java-time.format.date-time-formatter :as dtf]
-   ;; [cljc.java-time.instant :as instant]
    [cljc.java-time.local-date :as ld]
-   ;; [cljc.java-time.local-date-time :as ldt]
-   ;; [cljc.java-time.zone-id :as zone-id]
-   ;; [cljc.java-time.zoned-date-time :as zdt]
-   ;; [clojure.java.io :as io]
-   ;; [clojure.pprint :as pprint]
    [clojure.string :as str]
-   ;; [etaoin.api :as etaoin]
-   ;; [etaoin.keys :as etaoink]
-   ;; [failjure.core :as f]
-   [jsonista.core :as json]
-   ;; [org.bovinegenius.exploding-fish :as uri]
-   ;; [promesa.core :as p]
-   ))
+   [jsonista.core :as json]))
 
 ;;; API levels
 ;;; 1. Form the URL and convert paramters
