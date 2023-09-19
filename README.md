@@ -1,6 +1,6 @@
 # clj-tda
 
-*clj-tda* is a wrapper around TD Ameritrade's HTTP API. The wrapper
+Clj-tda is a wrapper around TD Ameritrade's HTTP API. The wrapper
 tries to make it easier to login and manage authentication tokens
 while providing a thin, Clojure-friendly wrapper around each of the
 various API endpoints.
