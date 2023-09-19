@@ -8,36 +8,13 @@
    [clojure.string :as str]
    [jsonista.core :as json]))
 
-;;; API levels
-;;; 1. Form the URL and convert paramters
-;;; 2. Perform the request and handle transitory errors
-;;; 3. If no error, decode the response to Clojure data
-;;; 4. If error, pass along appropriately
-
-;; (defn- millis->local-date
-;;   "Converts from milliseconds past the epoch in UTC to a
-;;   java.time.LocalDate. Assumes that java.time.ZoneId/systemDefault
-;;   returns the correct system default time zone."
-;;   [millis]
-;;   (-> millis
-;;       (instant/of-epoch-milli)
-;;       (ldt/of-instant (zone-id/system-default))
-;;       (ldt/to-local-date)))
-
 (def ^:private tda-object-mapper
   (json/object-mapper {:encode-key-fn csk/->camelCaseString
                        :decode-key-fn csk/->kebab-case-keyword}))
 
-
 (defn- bearer-access-token
   [access-token]
   (str "Bearer " access-token))
-
-;; (defn decode-json-body
-;;   [resp]
-;;   (-> resp
-;;       :body
-;;       (json/read-value tda-object-mapper)))
 
 (defn ->comma-sep-str
   [items]
