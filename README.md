@@ -9,6 +9,8 @@ The TD Ameritrade API can be found here: <https://developer.tdameritrade.com>
 
 ## Dependency Info
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.dgr/clj-tda.svg)](https://clojars.org/com.github.dgr/clj-tda)
+
 Leiningen project.clj:
 
 ```clojure
