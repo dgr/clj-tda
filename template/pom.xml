@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.dgr</groupId>
   <artifactId>clj-tda</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>com.github.dgr/clj-tda</name>
-  <description>FIXME: my new library.</description>
+  <description>A Clojure library that wraps TD Ameritrade's HTTP-based trading API.</description>
   <url>https://github.com/dgr/clj-tda</url>
   <licenses>
     <license>
